@@ -93,7 +93,7 @@ Set to non-nil before loading the package to override
 Based on defcustoms `zk-luhmann-id-prefix', `zk-luhmann-id-postfix',
 and `zk-luhmann-id-delimiter'."
   '(concat zk-luhmann-id-prefix
-           "\\([0-9a-zA-Z"
+           "\\([0-9a-z"
            zk-luhmann-id-delimiter
            "]*\\)"
            zk-luhmann-id-postfix))
